@@ -1,5 +1,5 @@
 :root {
-  --primary: #b6895b;
+  --primary: #8f1010;
   --bg: #010101;
 }
 
@@ -30,7 +30,7 @@ body {
   align-items: center;
   padding: 1.4rem 7%;
   background-color: rgba(1, 1, 1, 0.8);
-  border-bottom: 1px solid #715538;
+  border-bottom: 1px solid #8f1010;
   position: fixed;
   top: 0;
   left: 0;
@@ -272,7 +272,8 @@ body {
 
 /* About Section */
 
-.about {
+.about,
+.download-modul {
   position: relative;
   overflow: hidden;
   padding: 8rem;
@@ -317,10 +318,10 @@ body {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
-  width: 30rem;
-  height: 30rem;
+  width: 25rem;
+  height: 25rem;
   border-radius: 50%;
-  margin-right: 30px;
+  margin-right: 50px;
   border: 3px solid #000;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
 }
@@ -331,13 +332,15 @@ body {
 }
 
 /* Style tambahan sesuaikan dengan kebutuhan Anda */
-h2 {
+h2,
+.download-modul h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3.5rem;
 }
 
-h2 span {
+h2 span,
+.download-modul h2 span {
   color: var(--primary);
 }
 
@@ -417,6 +420,44 @@ footer .credit a {
 
 img {
   image-rendering: auto;
+}
+
+/* Download Materi Section */
+.download-modul h2 {
+  margin-bottom: 1rem;
+}
+
+.download-modul p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+.download-modul .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5em;
+  justify-content: center;
+}
+
+.download-modul .row .materi-download {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.download-modul .row .materi-download img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.download-modul .row .materi-download .materi-download-tittle {
+  margin-top: 1.5rem auto 0.5rem;
+}
+
+.download-modul p {
+  font-size: 1.2rem;
 }
 
 /* Media Queries */

@@ -2,7 +2,7 @@
 const navbarNav = document.querySelector(".navbar-nav");
 const dorpdowns = document.querySelectorAll(".dropdown");
 
-// Ketika Hamburger di klik
+// Ketika Materi Menu di klik
 document.querySelector("#materi-menu").onclick = () => {
   navbarNav.classList.toggle("active");
 };
